@@ -11,7 +11,7 @@ local Aimbot,SilentAim,Trigger,
 MuzzleVelocity,ProjectileGravity
 = false,nil,nil,1000,Vector3.zero
 
-if identifyexecutor() ~= "Synapse X" then
+if identifyexecutor() ~= "Fluxus" then
     local PromptLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/Roblox/main/Useful/PromptLibrary.lua"))()
     PromptLib("Unsupported Executor","Synapse X Only\nFor Safety Measures",{{Text = "Close",LayoutOrder = 0,Primary = true}})
     return
